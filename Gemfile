@@ -8,8 +8,8 @@ gem "rails"
 
 
 gem 'sorcery'
-gem 'effective_datatables'
-gem 'effective_resources'
+gem 'effective_datatables', require: false
+gem 'effective_resources', require: false
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
